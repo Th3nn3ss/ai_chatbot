@@ -1,0 +1,36 @@
+{
+    "intents": [
+        {
+            "tag": "greetings", 
+            "patterns": ["good morning, how are you", "Hi", "hey", "what's up", "How do you do", "what's good", "good to see you", "how are you", "what is going on", "greetings", "how is it going?"],
+            "responses": ["Hey", "I am fine thank you.", "Feeling Awesome today.", "It's a good day.", "Amazing to see you.", "Nice to meet you.", "Top of the day's praise to you.", "Hello"]
+        },
+        {
+            "tag": "goodbye", 
+            "patterns": ["see ya", "goodbye", "I am leaving", "exit out", "Have a good day", "bye", "cya", "cao", "bye bye"],
+            "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {
+            "tag": "age", 
+            "patterns": ["how old", "how old is your creator", "how old are you", "age?"],
+            "responses": ["My owner Dennis, is just a young dude. I am still a baby"]
+        },{
+            "tag": "name", 
+            "patterns": ["what is your name", "what should I call you", "what's your name?", "name", "can you tell me your name?"],
+            "responses": ["You can call me Hal.", "I am Hal", "I'm Hal. An AI assitant of Dennis_d_menace@!"]
+        },
+        {
+            "tag": "shop", 
+            "patterns": ["what do you do?", "what are your products?", "what do you recommend?", "what are you selling"],
+            "responses": ["Well Dennis is a software developer. He has lots of experience in areas such as web development, mobile development, AI, graphics and many more."]
+        },{
+            "tag": "hours", 
+            "patterns": ["when are you guys open", "what are your hours", "hours of opening", "how long are you open"],
+            "responses": ["24/7"]
+        },{
+            "tag": "stocks", 
+            "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "how are my stocks doing?"],
+            "responses": ["You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!"]
+        }
+    ]
+}
